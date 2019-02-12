@@ -10,9 +10,9 @@
 
 @implementation Entry
 
--(instancetype)initWithTitle:(NSString *)title
-                   bodyText:(NSString *)bodyText
-                  timestamp:(NSDate *)timestamp
+- (instancetype)initWithTitle:(NSString *)title
+                     bodyText:(NSString *)bodyText
+                    timestamp:(NSDate *)timestamp
 {
     self = [super init];
     if (self) {
@@ -21,5 +21,23 @@
         _timestamp = [NSDate date];
     }
     return self;
+}
+
+- (instancetype)initWithDictionaryCopy:(NSDictionary *)dictionary
+{
+    
+    NSString *title = dictionary[@"title"];
+    NSString *bodyText = dictionary[@"bodyText"];
+    NSDate *timestamp = dictionary[@"timestamp"];
+    return [self initWithTitle:title bodyText:bodyText timestamp:timestamp];
+}
+
+- (NSDictionary *)dictionaryCopy
+{
+    return @{
+             @"title": self.title,
+             @"bodyText": self.bodyText,
+             @"timestamp": self.timestamp
+             };
 }
 @end

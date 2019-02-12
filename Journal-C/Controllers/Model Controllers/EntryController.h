@@ -7,10 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Entry.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EntryController : NSObject
+
+// Shared instance
++ (EntryController *)shared;
+
+// Source of Truth
+@property (nonatomic, strong) NSMutableArray<Entry*> *entries;
+
+// MARK: - Methods
+- (void)saveToPersistentStorage;
+- (void)loadFromPersistentStorage;
+- (void)addEntry:(Entry *)entry;
+- (void)removeEntry:(Entry *)entry;
+- (void)modifyEntry:(Entry *)entry withTitle:(NSString *)title body:(NSString *)body;
 
 @end
 

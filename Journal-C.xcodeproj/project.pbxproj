@@ -7,25 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3B8A3D2212197E00377E38 /* EntryListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B8A3C2212197E00377E38 /* EntryListTableViewController.m */; };
+		0A3B8A412212210700377E38 /* EntryDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3B8A402212210700377E38 /* EntryDetailViewController.m */; };
 		0A4254FB221212E600094FAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4254FA221212E600094FAD /* AppDelegate.m */; };
-		0A4254FE221212E600094FAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4254FD221212E600094FAD /* ViewController.m */; };
 		0A425501221212E600094FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A4254FF221212E600094FAD /* Main.storyboard */; };
 		0A425503221212E700094FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A425502221212E700094FAD /* Assets.xcassets */; };
 		0A425506221212E700094FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A425504221212E700094FAD /* LaunchScreen.storyboard */; };
 		0A425509221212E700094FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A425508221212E700094FAD /* main.m */; };
+		0A425511221213C200094FAD /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A425510221213C200094FAD /* Entry.m */; };
+		0A4255152212161800094FAD /* EntryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A4255142212161800094FAD /* EntryController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A3B8A3B2212197E00377E38 /* EntryListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryListTableViewController.h; sourceTree = "<group>"; };
+		0A3B8A3C2212197E00377E38 /* EntryListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryListTableViewController.m; sourceTree = "<group>"; };
+		0A3B8A3F2212210700377E38 /* EntryDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryDetailViewController.h; sourceTree = "<group>"; };
+		0A3B8A402212210700377E38 /* EntryDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryDetailViewController.m; sourceTree = "<group>"; };
 		0A4254F6221212E600094FAD /* Journal-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A4254F9221212E600094FAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A4254FA221212E600094FAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A4254FC221212E600094FAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A4254FD221212E600094FAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A425500221212E600094FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A425502221212E700094FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A425505221212E700094FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A425507221212E700094FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A425508221212E700094FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A42550F221213C200094FAD /* Entry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		0A425510221213C200094FAD /* Entry.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
+		0A4255132212161800094FAD /* EntryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryController.h; sourceTree = "<group>"; };
+		0A4255142212161800094FAD /* EntryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +48,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A3B8A3E2212198400377E38 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A3B8A3B2212197E00377E38 /* EntryListTableViewController.h */,
+				0A3B8A3C2212197E00377E38 /* EntryListTableViewController.m */,
+				0A3B8A3F2212210700377E38 /* EntryDetailViewController.h */,
+				0A3B8A402212210700377E38 /* EntryDetailViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 		0A4254ED221212E600094FAD = {
 			isa = PBXGroup;
 			children = (
@@ -58,17 +78,60 @@
 		0A4254F8221212E600094FAD /* Journal-C */ = {
 			isa = PBXGroup;
 			children = (
+				0A425512221215EA00094FAD /* Model */,
+				0A4255192212168300094FAD /* Views */,
+				0A4255162212161C00094FAD /* Controllers */,
+				0A4255182212164A00094FAD /* Resources */,
+			);
+			path = "Journal-C";
+			sourceTree = "<group>";
+		};
+		0A425512221215EA00094FAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A42550F221213C200094FAD /* Entry.h */,
+				0A425510221213C200094FAD /* Entry.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A4255162212161C00094FAD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A4255172212162800094FAD /* Model Controllers */,
+				0A3B8A3E2212198400377E38 /* View Controllers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0A4255172212162800094FAD /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0A4255132212161800094FAD /* EntryController.h */,
+				0A4255142212161800094FAD /* EntryController.m */,
+			);
+			path = "Model Controllers";
+			sourceTree = "<group>";
+		};
+		0A4255182212164A00094FAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A425508221212E700094FAD /* main.m */,
 				0A4254F9221212E600094FAD /* AppDelegate.h */,
 				0A4254FA221212E600094FAD /* AppDelegate.m */,
-				0A4254FC221212E600094FAD /* ViewController.h */,
-				0A4254FD221212E600094FAD /* ViewController.m */,
-				0A4254FF221212E600094FAD /* Main.storyboard */,
 				0A425502221212E700094FAD /* Assets.xcassets */,
 				0A425504221212E700094FAD /* LaunchScreen.storyboard */,
 				0A425507221212E700094FAD /* Info.plist */,
-				0A425508221212E700094FAD /* main.m */,
 			);
-			path = "Journal-C";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A4255192212168300094FAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0A4254FF221212E600094FAD /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A4254FE221212E600094FAD /* ViewController.m in Sources */,
+				0A3B8A412212210700377E38 /* EntryDetailViewController.m in Sources */,
+				0A4255152212161800094FAD /* EntryController.m in Sources */,
+				0A425511221213C200094FAD /* Entry.m in Sources */,
 				0A425509221212E700094FAD /* main.m in Sources */,
 				0A4254FB221212E600094FAD /* AppDelegate.m in Sources */,
+				0A3B8A3D2212197E00377E38 /* EntryListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +352,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Journal-C/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Journal-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Journal-C/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Journal-C/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

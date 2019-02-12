@@ -7,10 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EntryController.h"
 
+@class Entry;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface EntryDetailViewController : UIViewController
+
+// Landing Pad that will be passed on segue from TableVC
+@property (strong, nonatomic) Entry *entry;
+
+-(void)updateViews;
+
 
 @end
 
